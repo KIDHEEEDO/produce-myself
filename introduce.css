@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+    width: vw;
+    margin: 0;
+    padding-top : 150px;
+    background-color : #152536;
+}
+
+#intro {
+    width: 100%;
+    height: 60px;
+    background-color: #FFD966;
+}
+
+#intro nav ul li {
+    float: left;
+
+    width: 16.6666666666666%;
+    height: 60px;
+    text-align: center;
+
+    line-height: 60px;
+}
+
+#intro nav ul li a {
+    color : #152536;
+    font-size : 25px;
+    font-family : 'Noto Sans KR', sans-serif;
+}
+
+.backgr {
+    width: 100%;
+    height: 550px;
+    margin: 0;
+
+}
+
+.backgr h1 {
+    color : white;
+    font-size : 100px;
+    text-align: center;
+    line-height: 150px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    font-family : 'Noto Sans KR', sans-serif;
+}
+
+#name {
+    color : #FFD966;
+}
+
+.diff{
+    float: left;
+    background-color: #152536;
+    width: 33.3333333333%;
+    height: 550px;
+    text-align: center;
+
+    line-height: 60px;
+}
+
+h3 {
+    text-align: center;
+    color : white;
+    font-size : 25px;
+}
+
+.imo1 {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    border-radius: 30%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    margin-top : 20px;
+}
+
+.imo2 {
+    background-color: white;
+    width: 250px;
+    height: 250px; 
+    border-radius: 30%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    margin-top : 20px;
+}
+
+.imo3 {
+    background-color: white;
+    width: 250px;
+    height: 250px; 
+    border-radius: 30%;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    margin-top : 20px;
+}
+
+.picto {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+#footer {
+    background-color: #152536;
+    clear : both;
+}
